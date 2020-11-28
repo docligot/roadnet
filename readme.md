@@ -21,7 +21,7 @@ G = ox.graph_from_place('Kapitolyo, Pasig, Philippines')
 ox.plot_graph(G)
 ```
 
-![Alt text](https://github.com/docligot/roadnet/blog/main/kapitolyo.png)
+![Alt text](https://github.com/docligot/roadnet/blob/main/kapitolyo.png)
 
 
 ```
@@ -29,7 +29,7 @@ P = ox.graph_from_place('Cotabato City, Philippines')
 ox.plot_graph(P)
 ```
 
-![Alt text](https://github.com/docligot/roadnet/blog/main/cotabato.png)
+![Alt text](https://github.com/docligot/roadnet/blob/main/cotabato.png)
 
 
 #### From bounding box
@@ -40,7 +40,7 @@ A_projected = ox.project_graph(A)
 ox.plot_graph(A_projected)
 ```
 
-![Alt text](https://github.com/docligot/roadnet/blog/main/intramuros.png)
+![Alt text](https://github.com/docligot/roadnet/blob/main/intramuros.png)
 
 
 ### Extract Nodes and Edges
