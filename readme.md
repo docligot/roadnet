@@ -52,14 +52,18 @@ gdf_nodes # get nodes
 ```
 
 Node list: 
+
 ![Alt text](https://github.com/docligot/roadnet/blob/main/nodes.png)
 
 ```
 gdf_edges # get edges
 ```
 
+
 Edge list: 
 ![Alt text](https://github.com/docligot/roadnet/blob/main/edges.png)
+
+#### Extract to CSV
 
 ```
 gdf_nodes.to_csv('intramuros_graph.csv')
