@@ -70,3 +70,8 @@ gdf_nodes.to_csv('intramuros_graph.csv')
 gdf_edges.to_csv('intramuros_streets.csv')
 
 ```
+
+## References
+
+* OSMNX: https://geoffboeing.com/2016/11/osmnx-python-street-networks/
+* Stack Overflow: https://stackoverflow.com/questions/63464608/how-can-i-extract-road-networks-from-openstreet-map-with-python
