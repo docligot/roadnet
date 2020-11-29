@@ -59,9 +59,16 @@ Node list:
 gdf_edges # get edges
 ```
 
-
 Edge list: 
 ![Alt text](https://github.com/docligot/roadnet/blob/main/edges.png)
+
+#### Extract to CSV
+
+```
+gdf_nodes.to_csv('intramuros_graph.csv')
+gdf_edges.to_csv('intramuros_streets.csv')
+
+```
 
 ### Shortest Path
 
@@ -71,14 +78,6 @@ fig, ax = ox.plot_graph_route(A, route, route_linewidth=6, node_size=0, bgcolor=
 ```
 ![Alt text](https://github.com/docligot/roadnet/blob/main/intramuros_shortest_path.png)
 
-
-#### Extract to CSV
-
-```
-gdf_nodes.to_csv('intramuros_graph.csv')
-gdf_edges.to_csv('intramuros_streets.csv')
-
-```
 
 ## References
 
