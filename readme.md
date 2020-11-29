@@ -63,6 +63,15 @@ gdf_edges # get edges
 Edge list: 
 ![Alt text](https://github.com/docligot/roadnet/blob/main/edges.png)
 
+### Shortest Path
+
+```
+route = nx.shortest_path(A, 21638762, 7555626818)
+fig, ax = ox.plot_graph_route(A, route, route_linewidth=6, node_size=0, bgcolor='k')
+```
+![Alt text](https://github.com/docligot/roadnet/blob/main/intramuros_shortest_path.png)
+
+
 #### Extract to CSV
 
 ```
